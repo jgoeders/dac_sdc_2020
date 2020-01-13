@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 	<results>
-		<runtime>0.03653693199157715</runtime>
-		<energy>0.196994958321</energy>
+		<runtime>0.022290945053100586</runtime>
+		<energy>0</energy>
 		<image>
 			<filename>0.jpg</filename>
 			<size>
@@ -9,7 +9,6 @@
 				<length>360</length>
 			</size>
 			<object>
-				<name>NotCare</name>
 				<bndbox>
 					<xmin>0</xmin>
 					<xmax>358</xmax>
@@ -25,7 +24,6 @@
 				<length>360</length>
 			</size>
 			<object>
-				<name>NotCare</name>
 				<bndbox>
 					<xmin>0</xmin>
 					<xmax>1350</xmax>
