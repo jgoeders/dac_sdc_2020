@@ -1,10 +1,13 @@
 proj:
-	vivado -source ../dac_contest.tcl
+	vivado -source dac_sdc.tcl
 
 clean:
-	rm -rf project_1
+	rm -rf dac_sdc
 
-move_bitstream: ../dac_contest.bit
+copy_hw: ../dac_sdc.bit ../dac_sdc.hwh
 
-../dac_contest.bit: project_1/project_1.runs/impl_1/dac_contest_wrapper.bit
+../dac_sdc.bit: dac_sdc/dac_sdc.runs/impl_1/dac_sdc_wrapper.bit
+	cp $< $@
+
+../dac_sdc.hwh: dac_sdc/dac_sdc.srcs/sources_1/bd/sensors96b/hw_handoff/sensors96b.hwh 
 	cp $< $@

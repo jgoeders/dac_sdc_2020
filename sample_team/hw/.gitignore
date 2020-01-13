@@ -1,3 +1,5 @@
 /project_1
 *.jou
 *.str
+*.log
+/dac_sdc
