@@ -3,7 +3,7 @@
 # Note:
 These files are still under development.  They should be stable by the end of January.
 
-For full contest details, please see the [2020 DAC System Design Contest](https://github.com/jgoeders/dac_sdc_2020/wiki/2020-DAC-System-Design-Contest) page.
+For full contest details, please see the [2020 DAC System Design Contest](https://dac-sdc-2020.groups.et.byu.net/doku.php) page.
 
 For general questions regarding this contest, please use the Piazza page: piazza.com/dac_2018/winter2020/dacsdc2020/home
 
