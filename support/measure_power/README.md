@@ -1,4 +1,4 @@
-===== Modifying the Ultra96 board to meausure energy usage =====
+# Modifying the Ultra96 board to meausure energy usage 
 
 By default, the Ultra96v2 PYNQ image (v2.5) does not contain the necessary configuration to retrieve current/power readings from the power regulators.  After you image your SD card, you will need to make the following modifications to the system files on the SD card.
 
