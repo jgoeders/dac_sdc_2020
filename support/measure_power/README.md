@@ -11,3 +11,4 @@ On the partition containing `BOOT.bin`, replace:
   * `BOOT.bin` with the `BOOT.bin` file provided in this repo folder.
   * `image.ub` with the `image.ub` file provided in this repo folder.
 
+A script is provided, `restore_image.sh`, which will perform the above automatically.  You just need to point it to the location of the SD card, such as `/dev/sda`.
