@@ -31,6 +31,6 @@ jupyter notebook dashboard.  Open the `sample_team/dac_sdc.ipynb` notebook for d
 
 2. images: All the test images are stored in this folder.
 
-3. result: The results includes the coordinates of the resized pictures and the frame rate of each picture.
+3. result: The results contain the output xml produced when execution is complete, and contains the runtime, energy usage, and predicted location of each object in each image.
 
 
